@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  stroke(int(random(0,255)),int(random(0,255)),int(random(0,255)));
+  stroke(0,int(random(0,255)),int(random(0,255)));
   while(endX < 300)
   	{
   		endX = startX + int(random(0,9));
